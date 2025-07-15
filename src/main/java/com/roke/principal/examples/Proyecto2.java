@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.roke.principal.examples;
 
 import java.util.ArrayList;
@@ -12,7 +8,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class Proyecto2 {
-
+/*
     // Clase para representar una ruta del grafo: destino y peso (distancia)
     static class Ruta {
         int destino;  // nodo al que va
@@ -114,4 +110,5 @@ public class Proyecto2 {
             if (i < camino.size() - 1) System.out.print(" -> ");
         }
     }
+*/
 }
