@@ -1,18 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.roke.principal.model;
 
-/**
- *
- * @author Jhordie
- */
+// Clase que representa una ruta entre dos ciudades
 public class Route {
     private City origin;
     private City destination;
     private double distance;
 
+    // Constructor que inicializa la ruta con su origen, destino y distancia
     public Route(City origin, City destination, double distance) {
         this.origin = origin;
         this.destination = destination;
@@ -41,8 +35,5 @@ public class Route {
 
     public void setDistance(double distance) {
         this.distance = distance;
-    }
-    
-    
-    
+    } 
 }
