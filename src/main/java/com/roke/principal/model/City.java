@@ -1,20 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.roke.principal.model;
 
 import java.util.Objects;
 
-/**
- *
- * @author Jhordie
- */
-public class City {
-    private final int id;
 
+public class City {
+    // Atributo final: identificador único de la ciudad. No se puede modificar después de asignarse
+    private final int id;
+    // Nombre de la ciudad (sí puede modificarse después)
     private String name;
 
+    
+    // Constructor que inicializa la ciudad con un id y un nombre.    
     public City(int id, String name) {
         this.id = id;
         this.name = name;
@@ -32,6 +28,8 @@ public class City {
         this.name = name;
     }
 
+    
+    // Método equals: se considera que dos ciudades son iguales si tienen el mismo nombre.
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -40,6 +38,7 @@ public class City {
         return Objects.equals(name, other.name);
     }
 
+    // Método toString: cuando se imprime un objeto City, se mostrará solo su nombre.
     @Override
     public String toString() {
         return name;
