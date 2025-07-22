@@ -1,7 +1,7 @@
 package com.roke.principal;
 
 
-import com.formdev.flatlaf.intellijthemes.FlatOneDarkIJTheme;
+import com.formdev.flatlaf.intellijthemes.FlatDarkPurpleIJTheme;
 import com.roke.principal.ui.AppFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -10,7 +10,7 @@ import javax.swing.UIManager;
 public class RoutesMain {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            FlatOneDarkIJTheme.setup();
+            FlatDarkPurpleIJTheme.setup();
 
             UIManager.put("Button.arc", 15);
             UIManager.put("Component.arc", 10);
